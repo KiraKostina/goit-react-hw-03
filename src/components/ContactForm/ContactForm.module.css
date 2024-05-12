@@ -13,6 +13,9 @@
   flex-direction: column;
 }
 
+.form_field {
+  height: 20px;
+}
 .addCntBtn {
   cursor: pointer;
   color: black;

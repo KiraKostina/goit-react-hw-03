@@ -32,12 +32,12 @@ export default function ContactForm({ onAdd }) {
       <Form className={css.form}>
         <div className={css.formContainer}>
           <label htmlFor={`${fieldId}-name`}>Name</label>
-          <Field type="text" name="name" id={`${fieldId}-name`} />
+          <Field className={css.form_field} type="text" name="name" id={`${fieldId}-name`} />
           <ErrorMessage name="name" component="span"/>
         </div>
         <div className={css.formContainer}>
           <label htmlFor={`${fieldId}-number`}>Number</label>
-          <Field type="tel" name="number" id={`${fieldId}-number`} />
+          <Field className={css.form_field} type="tel" name="number" id={`${fieldId}-number`} />
           <ErrorMessage name="number" component="span"/>
         </div>
         <button className={css.addCntBtn} type="submit">Add contact</button>
