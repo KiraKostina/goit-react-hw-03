@@ -3,6 +3,6 @@
   max-width: 400px;
 }
 
-/* .search_field {
-  
-} */
+.search_field {
+  width: 100%;
+}
